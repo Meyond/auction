@@ -3693,10 +3693,10 @@ jasminewd2@^2.1.0:
   resolved "https://registry.npm.taobao.org/jasminewd2/download/jasminewd2-2.2.0.tgz#e37cf0b17f199cce23bea71b2039395246b4ec4e"
   integrity sha1-43zwsX8ZnM4jvqcbIDk5Uka07E4=
 
-jquery@2.1.4:
-  version "2.1.4"
-  resolved "https://registry.npm.taobao.org/jquery/download/jquery-2.1.4.tgz#228bde698a0c61431dc2630a6a154f15890d2317"
-  integrity sha1-IoveaYoMYUMdwmMKahVPFYkNIxc=
+jquery@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.npm.taobao.org/jquery/download/jquery-3.4.0.tgz#8de513fa0fa4b2c7d2e48a530e26f0596936efdf"
+  integrity sha1-jeUT+g+kssfS5IpTDibwWWk2798=
 
 js-base64@^2.1.8:
   version "2.5.1"
