@@ -1,5 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 
+export class Product {
+  constructor(
+    public id: number,
+    public title: string,
+    public price: number,
+    public rating: number,
+    public desc: string,
+    public categories: Array<string>,
+  ) {
+
+  }
+}
+
 @Component({
   selector: 'app-product',
   templateUrl: './product.component.html',
@@ -7,8 +20,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductComponent implements OnInit {
 
-  private products: Array<Product>;
-  private imgUrl = 'http://via.placeholder.com/320x150';
+  products: Array<Product>;
+  imgUrl = 'http://via.placeholder.com/320x150';
 
   constructor() { }
 
@@ -21,18 +34,5 @@ export class ProductComponent implements OnInit {
       new Product(5, '第五个商品', 5.99, 4.5, '商品说明商品说明商品说明商品说明', ['电子产品', '硬件外设']),
       new Product(6, '第六个商品', 6.99, 3.5, '商品说明商品说明商品说明商品说明', ['电子产品', '硬件外设']),
     ];
-  }
-}
-
-export class Product {
-  constructor(
-    public id: number,
-    public title: string,
-    public price: number,
-    public rating: number,
-    public desc: string,
-    public categories: Array<string>,
-  ) {
-
   }
 }

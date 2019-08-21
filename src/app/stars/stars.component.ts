@@ -8,8 +8,8 @@ import { Component, OnInit, Input } from '@angular/core';
 export class StarsComponent implements OnInit {
 
   @Input() // 告诉组件这个属性应该由父组件传递过来
-  private rating = 0;
-  private stars: boolean[];
+  rating = 0;
+  stars: boolean[];
 
   constructor() { }
 
