@@ -5,15 +5,16 @@
 <!-- 事件绑定 -->
 <br />
 <button (click)="doOnClick($event)" [disabled]="false">显示隐藏</button>
+<br />
 <!--DOM属性绑定-->
-<br>
-<label>
-  请输入:
+<br />
+<label class="input-group">
+  <span class="input-group-addon" id="basic-addon1">请输入</span>
   <input
+    class="form-control"
     (input)="doOnInput($event)"
     value="Tom"
     type="text"
-    style="margin: 20px;border-radius: 2px;border: 1px solid #ccc;"
   />
 </label>
 <!--class类属性绑定-->

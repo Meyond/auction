@@ -6,12 +6,11 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./stars.component.scss']
 })
 export class StarsComponent implements OnInit {
-
   @Input() // 告诉组件这个属性应该由父组件传递过来
   rating = 0;
   stars: boolean[];
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
     this.stars = [];

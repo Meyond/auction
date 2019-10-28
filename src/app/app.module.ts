@@ -27,11 +27,8 @@ import { BindComponent } from './bind/bind.component';
     HomeComponent,
     BindComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

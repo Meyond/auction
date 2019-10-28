@@ -8,9 +8,8 @@ describe('Code404Component', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ Code404Component ]
-    })
-    .compileComponents();
+      declarations: [Code404Component]
+    }).compileComponents();
   }));
 
   beforeEach(() => {
