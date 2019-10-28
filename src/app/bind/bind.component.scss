@@ -1,0 +1,7 @@
+.show{
+  background-color: aquamarine;
+  padding: 20px;
+}
+.show + div {
+  padding: 20px;
+}

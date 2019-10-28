@@ -1,0 +1,22 @@
+<!-- 插值表达式 -->
+<img src="{{ imgUrl }}" alt="placeholder" />
+<!-- 属性绑定 -->
+<img [src]="imgUrl" alt="placeholder" />
+<!-- 事件绑定 -->
+<br />
+<button (click)="doOnClick($event)" [disabled]="false">显示隐藏</button>
+<!--DOM属性绑定-->
+<br>
+<label>
+  请输入:
+  <input
+    (input)="doOnInput($event)"
+    value="Tom"
+    type="text"
+    style="margin: 20px;border-radius: 2px;border: 1px solid #ccc;"
+  />
+</label>
+<!--class类属性绑定-->
+<div [ngClass]="{ show: isAddClass }"></div>
+<!--style样式绑定-->
+<div [ngStyle]="{ backgroundColor: isAddClass ? 'pink' : '' }"></div>
